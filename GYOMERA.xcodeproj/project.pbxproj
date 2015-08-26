@@ -13,6 +13,7 @@
 		08F5BA901B8D59970099E0D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F5BA8F1B8D59970099E0D9 /* Images.xcassets */; };
 		08F5BA931B8D59970099E0D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F5BA911B8D59970099E0D9 /* LaunchScreen.xib */; };
 		08F5BA9F1B8D59970099E0D9 /* GYOMERATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F5BA9E1B8D59970099E0D9 /* GYOMERATests.swift */; };
+		08F5BAA91B8D59D30099E0D9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BAA81B8D59D30099E0D9 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		08F5BA981B8D59970099E0D9 /* GYOMERATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYOMERATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F5BA9D1B8D59970099E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08F5BA9E1B8D59970099E0D9 /* GYOMERATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYOMERATests.swift; sourceTree = "<group>"; };
+		08F5BAA81B8D59D30099E0D9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F5BAA91B8D59D30099E0D9 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		08F5BA7A1B8D59970099E0D9 = {
 			isa = PBXGroup;
 			children = (
+				08F5BAA81B8D59D30099E0D9 /* AVFoundation.framework */,
 				08F5BA851B8D59970099E0D9 /* GYOMERA */,
 				08F5BA9B1B8D59970099E0D9 /* GYOMERATests */,
 				08F5BA841B8D59970099E0D9 /* Products */,
