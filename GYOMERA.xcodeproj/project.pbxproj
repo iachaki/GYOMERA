@@ -14,6 +14,7 @@
 		08F5BA931B8D59970099E0D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F5BA911B8D59970099E0D9 /* LaunchScreen.xib */; };
 		08F5BA9F1B8D59970099E0D9 /* GYOMERATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F5BA9E1B8D59970099E0D9 /* GYOMERATests.swift */; };
 		08F5BAA91B8D59D30099E0D9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BAA81B8D59D30099E0D9 /* AVFoundation.framework */; };
+		08F5BAAB1B8D5F710099E0D9 /* CameraButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F5BAAA1B8D5F710099E0D9 /* CameraButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		08F5BA9D1B8D59970099E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08F5BA9E1B8D59970099E0D9 /* GYOMERATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYOMERATests.swift; sourceTree = "<group>"; };
 		08F5BAA81B8D59D30099E0D9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		08F5BAAA1B8D5F710099E0D9 /* CameraButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		08F5BA851B8D59970099E0D9 /* GYOMERA */ = {
 			isa = PBXGroup;
 			children = (
+				08F5BAAA1B8D5F710099E0D9 /* CameraButton.png */,
 				08F5BA881B8D59970099E0D9 /* AppDelegate.swift */,
 				08F5BA8A1B8D59970099E0D9 /* ViewController.swift */,
 				08F5BA8C1B8D59970099E0D9 /* Main.storyboard */,
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F5BAAB1B8D5F710099E0D9 /* CameraButton.png in Resources */,
 				08F5BA8E1B8D59970099E0D9 /* Main.storyboard in Resources */,
 				08F5BA931B8D59970099E0D9 /* LaunchScreen.xib in Resources */,
 				08F5BA901B8D59970099E0D9 /* Images.xcassets in Resources */,
@@ -345,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GYOMERA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GYOMERA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
