@@ -22,10 +22,14 @@ class ChooseTagViewController: UIViewController {
         
         //imageViewにtagImageを表示
         imageView.image = tagImage
-        
     }
     
-    @IBAction func LoadingTag() {
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        LoadingTag()
+    }
+    
+    func LoadingTag() {
         
         SVProgressHUD.showWithStatus("ANALYZING")
         
