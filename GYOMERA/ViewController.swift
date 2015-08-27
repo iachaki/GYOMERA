@@ -11,6 +11,8 @@ import AVFoundation
 
 
 class ViewController: UIViewController {
+    //定数がlet,変数がvar,引数が,メソッドがfunc
+    
     
     //セッション
     var mySession : AVCaptureSession! //nillは基本❌”!”＊codeには書いてないけどstorybordにはあるよ！強め！
@@ -18,6 +20,9 @@ class ViewController: UIViewController {
     var myDevice : AVCaptureDevice!
     //画像のアウトプット
     var myImageOutput : AVCaptureStillImageOutput!
+    
+    //撮った写真
+    var myImage: UIImage!
     
     
     
@@ -66,9 +71,19 @@ class ViewController: UIViewController {
         myButton.setBackgroundImage(myButtonImage!, forState: .Normal)
         myButton.layer.position = CGPoint(x: self.view.bounds.width/2, y: self.view.bounds.height-50)
         myButton.addTarget(self, action: "onClickMyButton:", forControlEvents: .TouchUpInside)
+        //”onClickMyButton:”の”:”は引数があるときにつける！(sender:)
+        
+                //下のViewを作成
+        let width = self.view.bounds.width
+        let whiteView: UIView = UIView(frame: CGRectMake(0, 0,width,95))
+       // whiteView.backgroundColor = UIColor(white: 1,)
+        whiteView.layer.position = CGPoint(x: self.view.bounds.width/2, y: self.view.bounds.height-95/2)
+        self.view.addSubview(whiteView)
         
         //UIボタンをViewに追加
         self.view.addSubview(myButton)
+        
+
         
     }
     
@@ -85,17 +100,31 @@ class ViewController: UIViewController {
                 let myImageData : NSData = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(ImageDataBuffer)
     
               //JpegからUIImageを作成
-               let myImage : UIImage = UIImage(data: myImageData)!
-    
+               self.myImage = UIImage(data: myImageData)!
+                
+              self.performSegueWithIdentifier("SegueCT", sender: nil)
+        
                 //アルバムに追加
-               UIImageWriteToSavedPhotosAlbum(myImage, self, nil, nil)
+               UIImageWriteToSavedPhotosAlbum(self.myImage, self, nil, nil)
     
     
             })
         }
     
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
+        if segue.identifier == "SegueCT" {
+            var chooseTagViewController = segue.destinationViewController as! ChooseTagViewController
+            chooseTagViewController.tagImage = myImage
+        }
+    }
     
+    //     let myViewController : UIViewController = ChooseTagViewController()
+    
+    
+    
+    //self.presentViewController(ChooseTagViewController, animated: true, completion: nil)
+    //performSegueWithIdentifier("SegueCT", sender: nil)
     
     
     override func didReceiveMemoryWarning() {
