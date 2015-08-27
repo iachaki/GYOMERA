@@ -15,6 +15,25 @@
 		08F5BA9F1B8D59970099E0D9 /* GYOMERATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F5BA9E1B8D59970099E0D9 /* GYOMERATests.swift */; };
 		08F5BAA91B8D59D30099E0D9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BAA81B8D59D30099E0D9 /* AVFoundation.framework */; };
 		08F5BAAB1B8D5F710099E0D9 /* CameraButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F5BAAA1B8D5F710099E0D9 /* CameraButton.png */; };
+		08F5BAAF1B8DA4090099E0D9 /* ChooseTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F5BAAE1B8DA4090099E0D9 /* ChooseTagViewController.swift */; };
+		08F5BAB11B8E7EE00099E0D9 /* GYOMERAstart.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F5BAB01B8E7EE00099E0D9 /* GYOMERAstart.png */; };
+		08F5BABC1B8E980C0099E0D9 /* FaceThumbnailCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5BAB51B8E980C0099E0D9 /* FaceThumbnailCropper.m */; };
+		08F5BABD1B8E980C0099E0D9 /* ReKognitionResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5BAB71B8E980C0099E0D9 /* ReKognitionResults.m */; };
+		08F5BABE1B8E980C0099E0D9 /* RekognitionSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5BAB91B8E980C0099E0D9 /* RekognitionSDK.m */; };
+		08F5BABF1B8E980C0099E0D9 /* RekoImageToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5BABB1B8E980C0099E0D9 /* RekoImageToolbox.m */; };
+		08F5BAC31B8E99430099E0D9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BAC21B8E99430099E0D9 /* CoreVideo.framework */; };
+		08F5BAC51B8E994F0099E0D9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BAC41B8E994F0099E0D9 /* CoreMedia.framework */; };
+		08F5BAC71B8E99580099E0D9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BAC61B8E99580099E0D9 /* MobileCoreServices.framework */; };
+		08F5BAC91B8E99650099E0D9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BAC81B8E99650099E0D9 /* Accelerate.framework */; };
+		08F5BACB1B8E99710099E0D9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BACA1B8E99710099E0D9 /* AudioToolbox.framework */; };
+		08F5BACD1B8E99880099E0D9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BACC1B8E99880099E0D9 /* QuartzCore.framework */; };
+		08F5BACF1B8E99910099E0D9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BACE1B8E99910099E0D9 /* ImageIO.framework */; };
+		08F5BAD11B8E99A40099E0D9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BAD01B8E99A40099E0D9 /* AssetsLibrary.framework */; };
+		08F5BAD31B8E99BA0099E0D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F5BAD21B8E99BA0099E0D9 /* Foundation.framework */; };
+		08F5BB081B8EAD5A0099E0D9 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5BB011B8EAD5A0099E0D9 /* SVIndefiniteAnimatedView.m */; };
+		08F5BB091B8EAD5A0099E0D9 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08F5BB031B8EAD5A0099E0D9 /* SVProgressHUD.bundle */; };
+		08F5BB0A1B8EAD5A0099E0D9 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5BB051B8EAD5A0099E0D9 /* SVProgressHUD.m */; };
+		08F5BB0B1B8EAD5A0099E0D9 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5BB071B8EAD5A0099E0D9 /* SVRadialGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +58,35 @@
 		08F5BA9D1B8D59970099E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08F5BA9E1B8D59970099E0D9 /* GYOMERATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYOMERATests.swift; sourceTree = "<group>"; };
 		08F5BAA81B8D59D30099E0D9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		08F5BAAA1B8D5F710099E0D9 /* CameraButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraButton.png; sourceTree = "<group>"; };
+		08F5BAAA1B8D5F710099E0D9 /* CameraButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CameraButton.png; path = GYOMERA/CameraButton.png; sourceTree = "<group>"; };
+		08F5BAAE1B8DA4090099E0D9 /* ChooseTagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChooseTagViewController.swift; path = ../ChooseTagViewController.swift; sourceTree = "<group>"; };
+		08F5BAB01B8E7EE00099E0D9 /* GYOMERAstart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GYOMERAstart.png; path = GYOMERA/GYOMERAstart.png; sourceTree = "<group>"; };
+		08F5BAB41B8E980C0099E0D9 /* FaceThumbnailCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceThumbnailCropper.h; sourceTree = "<group>"; };
+		08F5BAB51B8E980C0099E0D9 /* FaceThumbnailCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceThumbnailCropper.m; sourceTree = "<group>"; };
+		08F5BAB61B8E980C0099E0D9 /* ReKognitionResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReKognitionResults.h; sourceTree = "<group>"; };
+		08F5BAB71B8E980C0099E0D9 /* ReKognitionResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReKognitionResults.m; sourceTree = "<group>"; };
+		08F5BAB81B8E980C0099E0D9 /* ReKognitionSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReKognitionSDK.h; sourceTree = "<group>"; };
+		08F5BAB91B8E980C0099E0D9 /* RekognitionSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RekognitionSDK.m; sourceTree = "<group>"; };
+		08F5BABA1B8E980C0099E0D9 /* RekoImageToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RekoImageToolbox.h; sourceTree = "<group>"; };
+		08F5BABB1B8E980C0099E0D9 /* RekoImageToolbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RekoImageToolbox.m; sourceTree = "<group>"; };
+		08F5BAC21B8E99430099E0D9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		08F5BAC41B8E994F0099E0D9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		08F5BAC61B8E99580099E0D9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		08F5BAC81B8E99650099E0D9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		08F5BACA1B8E99710099E0D9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		08F5BACC1B8E99880099E0D9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		08F5BACE1B8E99910099E0D9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		08F5BAD01B8E99A40099E0D9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		08F5BAD21B8E99BA0099E0D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08F5BAFE1B8EA16B0099E0D9 /* GYOMERA-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GYOMERA-Bridging-Header.h"; path = "GYOMERA/GYOMERA-Bridging-Header.h"; sourceTree = "<group>"; };
+		08F5BB001B8EAD5A0099E0D9 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		08F5BB011B8EAD5A0099E0D9 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		08F5BB021B8EAD5A0099E0D9 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		08F5BB031B8EAD5A0099E0D9 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		08F5BB041B8EAD5A0099E0D9 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		08F5BB051B8EAD5A0099E0D9 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		08F5BB061B8EAD5A0099E0D9 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		08F5BB071B8EAD5A0099E0D9 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +94,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F5BAD31B8E99BA0099E0D9 /* Foundation.framework in Frameworks */,
+				08F5BAD11B8E99A40099E0D9 /* AssetsLibrary.framework in Frameworks */,
+				08F5BACF1B8E99910099E0D9 /* ImageIO.framework in Frameworks */,
+				08F5BACD1B8E99880099E0D9 /* QuartzCore.framework in Frameworks */,
+				08F5BACB1B8E99710099E0D9 /* AudioToolbox.framework in Frameworks */,
+				08F5BAC91B8E99650099E0D9 /* Accelerate.framework in Frameworks */,
+				08F5BAC71B8E99580099E0D9 /* MobileCoreServices.framework in Frameworks */,
+				08F5BAC51B8E994F0099E0D9 /* CoreMedia.framework in Frameworks */,
+				08F5BAC31B8E99430099E0D9 /* CoreVideo.framework in Frameworks */,
 				08F5BAA91B8D59D30099E0D9 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +120,17 @@
 		08F5BA7A1B8D59970099E0D9 = {
 			isa = PBXGroup;
 			children = (
+				08F5BAFE1B8EA16B0099E0D9 /* GYOMERA-Bridging-Header.h */,
+				08F5BAD21B8E99BA0099E0D9 /* Foundation.framework */,
+				08F5BAD01B8E99A40099E0D9 /* AssetsLibrary.framework */,
+				08F5BACE1B8E99910099E0D9 /* ImageIO.framework */,
+				08F5BACC1B8E99880099E0D9 /* QuartzCore.framework */,
+				08F5BACA1B8E99710099E0D9 /* AudioToolbox.framework */,
+				08F5BAC81B8E99650099E0D9 /* Accelerate.framework */,
+				08F5BAC61B8E99580099E0D9 /* MobileCoreServices.framework */,
+				08F5BAC41B8E994F0099E0D9 /* CoreMedia.framework */,
+				08F5BAC21B8E99430099E0D9 /* CoreVideo.framework */,
+				08F5BAB21B8E7EF00099E0D9 /* Design */,
 				08F5BAA81B8D59D30099E0D9 /* AVFoundation.framework */,
 				08F5BA851B8D59970099E0D9 /* GYOMERA */,
 				08F5BA9B1B8D59970099E0D9 /* GYOMERATests */,
@@ -83,9 +150,10 @@
 		08F5BA851B8D59970099E0D9 /* GYOMERA */ = {
 			isa = PBXGroup;
 			children = (
-				08F5BAAA1B8D5F710099E0D9 /* CameraButton.png */,
+				08F5BAB31B8E980C0099E0D9 /* SDK */,
 				08F5BA881B8D59970099E0D9 /* AppDelegate.swift */,
 				08F5BA8A1B8D59970099E0D9 /* ViewController.swift */,
+				08F5BAAE1B8DA4090099E0D9 /* ChooseTagViewController.swift */,
 				08F5BA8C1B8D59970099E0D9 /* Main.storyboard */,
 				08F5BA8F1B8D59970099E0D9 /* Images.xcassets */,
 				08F5BA911B8D59970099E0D9 /* LaunchScreen.xib */,
@@ -117,6 +185,46 @@
 				08F5BA9D1B8D59970099E0D9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08F5BAB21B8E7EF00099E0D9 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				08F5BAB01B8E7EE00099E0D9 /* GYOMERAstart.png */,
+				08F5BAAA1B8D5F710099E0D9 /* CameraButton.png */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
+		08F5BAB31B8E980C0099E0D9 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				08F5BAB41B8E980C0099E0D9 /* FaceThumbnailCropper.h */,
+				08F5BAB51B8E980C0099E0D9 /* FaceThumbnailCropper.m */,
+				08F5BAB61B8E980C0099E0D9 /* ReKognitionResults.h */,
+				08F5BAB71B8E980C0099E0D9 /* ReKognitionResults.m */,
+				08F5BAB81B8E980C0099E0D9 /* ReKognitionSDK.h */,
+				08F5BAB91B8E980C0099E0D9 /* RekognitionSDK.m */,
+				08F5BABA1B8E980C0099E0D9 /* RekoImageToolbox.h */,
+				08F5BABB1B8E980C0099E0D9 /* RekoImageToolbox.m */,
+				08F5BAFF1B8EAD5A0099E0D9 /* SVProgressHUD */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		08F5BAFF1B8EAD5A0099E0D9 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				08F5BB001B8EAD5A0099E0D9 /* SVIndefiniteAnimatedView.h */,
+				08F5BB011B8EAD5A0099E0D9 /* SVIndefiniteAnimatedView.m */,
+				08F5BB021B8EAD5A0099E0D9 /* SVProgressHUD-Prefix.pch */,
+				08F5BB031B8EAD5A0099E0D9 /* SVProgressHUD.bundle */,
+				08F5BB041B8EAD5A0099E0D9 /* SVProgressHUD.h */,
+				08F5BB051B8EAD5A0099E0D9 /* SVProgressHUD.m */,
+				08F5BB061B8EAD5A0099E0D9 /* SVRadialGradientLayer.h */,
+				08F5BB071B8EAD5A0099E0D9 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F5BAB11B8E7EE00099E0D9 /* GYOMERAstart.png in Resources */,
+				08F5BB091B8EAD5A0099E0D9 /* SVProgressHUD.bundle in Resources */,
 				08F5BAAB1B8D5F710099E0D9 /* CameraButton.png in Resources */,
 				08F5BA8E1B8D59970099E0D9 /* Main.storyboard in Resources */,
 				08F5BA931B8D59970099E0D9 /* LaunchScreen.xib in Resources */,
@@ -220,8 +330,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F5BAAF1B8DA4090099E0D9 /* ChooseTagViewController.swift in Sources */,
+				08F5BABD1B8E980C0099E0D9 /* ReKognitionResults.m in Sources */,
 				08F5BA8B1B8D59970099E0D9 /* ViewController.swift in Sources */,
+				08F5BB081B8EAD5A0099E0D9 /* SVIndefiniteAnimatedView.m in Sources */,
+				08F5BABF1B8E980C0099E0D9 /* RekoImageToolbox.m in Sources */,
+				08F5BB0A1B8EAD5A0099E0D9 /* SVProgressHUD.m in Sources */,
 				08F5BA891B8D59970099E0D9 /* AppDelegate.swift in Sources */,
+				08F5BABE1B8E980C0099E0D9 /* RekognitionSDK.m in Sources */,
+				08F5BABC1B8E980C0099E0D9 /* FaceThumbnailCropper.m in Sources */,
+				08F5BB0B1B8EAD5A0099E0D9 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +470,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/GYOMERA-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -363,6 +482,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/GYOMERA-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -419,6 +539,7 @@
 				08F5BAA41B8D59970099E0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08F5BAA51B8D59970099E0D9 /* Build configuration list for PBXNativeTarget "GYOMERATests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +548,7 @@
 				08F5BAA71B8D59970099E0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
